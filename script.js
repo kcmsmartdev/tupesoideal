@@ -27,11 +27,7 @@ function functionCalcular() {
          _CP2 = DP * _CP;
          // 3 Samos el resultdo
          dato_Resultado = PB + _CP2;
-         if(opcionAltura <= 100){
-            opcionResultado.textContent = "Busca ayuda médica";
-        }else{
-            opcionResultado.textContent = Math.ceil(dato_Resultado);
-        }
+         opcionResultado.textContent = Math.ceil(dato_Resultado);
     
      }else if(opcionSexo === "mujer" ){
         //Datos para hombre
