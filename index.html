@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora para saber tu peso ideal</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class=" max-h-screen flex flex-col justify-center items-center bg-amber-200 font-Monserrat p-5 gap-4 lg:flex-row">
+ 
+        <section class="w-full   bg-amber-100 rounded-2xl p-5 lg:w-[600px]">
+            <h1 class="text-5xl p-5 font-CalSanz text-center lg:text-7xl">¿Cómo saber tu peso ideal?</h1>
+            <h2 class="text-1xl text-center mt-3">Para calcular tu peso ideal con la fórmula de Devine, necesitas los siguientes datos:</h2>
+            
+            <div class="w-full flex flex-col p-10 rounded-2xl bg-white mt-10">
+                <div class="flex flex-col space-y-2">
+                    <label for="sexo" class="text-sm font-medium text-gray-700">Sexo</label>
+                    <select id="dato-Sexo" name="sexo" class="border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-green-500">
+                      <option value="">Selecciona una opción</option>
+                      <option value="hombre">Hombre</option>
+                      <option value="mujer">Mujer</option>
+                    </select>
+                  </div>
+                  
+    
+                <div class="flex flex-col mt-2">
+                    <label for="labol-altura text-md">Altura</label>
+                <input type="number" class="border-4 rounded-2xl p-2 mt-2" placeholder="Ingrese tu altura ejemplo: 175 cm" id="dato_Altura">
+                </div>
+    
+                <button class="p-5 bg-blue-500 rounded-4xl mt-10 text-2xl text-white font-bold transition-transform duration-300 ease-in-out hover:scale-110 cursor-pointer" onclick="functionCalcular()">Calcular</button>
+            </div>
+       
+        </section>
+    
+
+    <!--Sección de ver resultado-->
+
+    <section class="w-full h-full flex flex-col justify-center items-center bg-amber-50 rounded-2xl p-5 mb-5 lg:w-[500px] lg:mb-0" id="dato-ContenedorResultado">
+       <span>Tu peso ideal es:</span>
+       <div class="px-15 py-3 bg-blue-300 rounded-2xl font-bold text-2xl mt-5">
+               <span id="dato-Resultado">0</span>
+       </div>
+
+       <span class="mt-10 text-sm text-black/70">*Recuerda que estos datos son apróximados <br>
+             *Se recomienda acudir a tú nutriólogo y/o médico de confianza <br>
+             *Esté sitio web es una demostración
+       </span>
+       <footer class="mt-10 text-sm text-shadow-black/60">Web desarollado por | KCM SMART</footer>
+    </section>
+    <script src="/script.js"></script>
+</body>
+</html>
