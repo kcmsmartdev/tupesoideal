@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.85 31.85">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #0f0f0f;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        fill: #0f0f0f;
+        font-family: Montserrat-BlackItalic, Montserrat;
+        font-size: 7.25px;
+        font-style: italic;
+        font-weight: 800;
+      }
+
+      .cls-4 {
+        fill: #ffd242;
+      }
+    </style>
+  </defs>
+  <circle class="cls-4" cx="15.93" cy="15.93" r="15.93"/>
+  <g>
+    <g>
+      <path class="cls-2" d="M18.02,10.34s-9.1,1.25-10.41,8.33c-1.31,7.08-1.07,6.42-1.07,6.42h11.48"/>
+      <path class="cls-2" d="M13.83,10.34s9.1,1.25,10.41,8.33c1.31,7.08,1.07,6.42,1.07,6.42h-11.48"/>
+      <circle class="cls-2" cx="15.93" cy="7.76" r="2.84"/>
+    </g>
+    <text class="cls-3" transform="translate(10.53 22.24) scale(.97 1)"><tspan class="cls-1" x="0" y="0">K</tspan><tspan x="5.37" y="0">G</tspan></text>
+  </g>
+</svg>
